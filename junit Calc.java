@@ -46,7 +46,7 @@ public void testDivide() {
 int a = 250; int b = 10; 
 double expectedResult = 25; 
 double result = objCalcUnderTest.divide(a, b);
-Assert.assertEquals(expectedResult, result,0.00002); 
+Assert.assertEquals(expectedResult, result); 
 }
 
 @Test(expected = IllegalArgumentException.class)
